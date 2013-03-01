@@ -11,13 +11,13 @@ projects[l10n_update][subdir] = contrib
 
 ; The media module has to be part of the 2 branch. That's why it is downloaded here.
 projects[media][subdir] = contrib
-; projects[media][version] = 2.x-dev
+projects[media][version] = 2.x-dev
 
 ; These are some module that are nice to have for developers, but not needed to be added by features
 projects[diff][subdir] = contrib
 projects[features_extra][subdir] = contrib
 projects[module_filter][subdir] = contrib
-; projects[module_filter][version] = 2.x-dev
+projects[module_filter][version] = 2.x-dev
 projects[contentment][subdir] = contrib
 
 ; Themes
