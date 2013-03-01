@@ -11,13 +11,13 @@ projects[l10n_update][subdir] = contrib
 
 ; The media module has to be part of the 2 branch. That's why it is downloaded here.
 projects[media][subdir] = contrib
-projects[media][version] = 2.x-dev
+; projects[media][version] = 2.x-dev
 
 ; These are some module that are nice to have for developers, but not needed to be added by features
 projects[diff][subdir] = contrib
 projects[features_extra][subdir] = contrib
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 2.x-dev
+; projects[module_filter][version] = 2.x-dev
 projects[contentment][subdir] = contrib
 
 ; Themes
@@ -49,25 +49,25 @@ libraries[ckfinder][destination] = "libraries"
 projects[finalist_feature_general_settings][subdir] = "features"
 projects[finalist_feature_general_settings][type] = "module"
 projects[finalist_feature_general_settings][download][type] = "git"
-projects[finalist_feature_general_settings][download][url]="git@github.com:fabianderijk/finalist_feature_general_settings.git"
+projects[finalist_feature_general_settings][download][url]="git://github.com/fabianderijk/finalist_feature_general_settings.git"
 
 ; File settings
 projects[finalist_feature_file_settings][subdir] = "features"
 projects[finalist_feature_file_settings][type] = "module"
 projects[finalist_feature_file_settings][download][type] = "git"
-projects[finalist_feature_file_settings][download][url]="git@github.com:fabianderijk/finalist_feature_file_settings.git"
+projects[finalist_feature_file_settings][download][url]="git://github.com/fabianderijk/finalist_feature_file_settings.git"
 
 ; News node type
 projects[finalist_feature_node_type_news][subdir] = "features"
 projects[finalist_feature_node_type_news][type] = "module"
 projects[finalist_feature_node_type_news][download][type] = "git"
-projects[finalist_feature_node_type_news][download][url]="git@github.com:fabianderijk/finalist_feature_node_type_news.git"
+projects[finalist_feature_node_type_news][download][url]="git://github.com/fabianderijk/finalist_feature_node_type_news.git"
 
 ; Page node type
 projects[finalist_feature_node_type_page][subdir] = "features"
 projects[finalist_feature_node_type_page][type] = "module"
 projects[finalist_feature_node_type_page][download][type] = "git"
-projects[finalist_feature_node_type_page][download][url]="git@github.com:fabianderijk/finalist_feature_node_type_page.git"
+projects[finalist_feature_node_type_page][download][url]="git://github.com/fabianderijk/finalist_feature_node_type_page.git"
 
 ; Media module
 projects[finalist_feature_node_type_page][subdir] = "features"
